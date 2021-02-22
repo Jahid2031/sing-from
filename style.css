@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+body:after {
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: -1;
+}
+form {
+  width: 50%;
+  margin: 0 auto;
+  background-color: rgba(60, 189, 25, 0.3);
+  border-radius: 5px;
+  padding: 40px 80px;
+}
+label {
+  font-size: 25px;
+  font-weight: bold;
+  color: skyblue;
+  display: block;
+}
+.input {
+  width: 100%;
+  padding: 15px 20px;
+  border-radius: 5px;
+  display: block;
+}
+.first-name {
+  width: 48%;
+  float: left;
+  margin-right: 8px;
+}
+.last-name {
+  width: 50%;
+  float: left;
+}
+.Subjects {
+  width: 50%;
+  float: left;
+}
+.date {
+  width: 50%;
+  float: left;
+}
+.age {
+  width: 50%;
+  float: left;
+}
+.age input {
+  width: 60%;
+}
+.country {
+  width: 50%;
+  float: left;
+}
+
+button {
+  margin-top: 30px;
+  width: 100%;
+  padding: 15px 18px;
+  background-color: darkcyan;
+  color: chartreuse;
+  font-size: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: rgb(20, 66, 20);
+  color: darkmagenta;
+  transition: 0.7s;
+}
+button:focus {
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
+input {
+  background-color: cornsilk;
+}
+
+.checkbox {
+  margin-top: 20px;
+}
